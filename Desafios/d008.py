@@ -1,0 +1,5 @@
+alt = float(input('Qual altura? '))
+lar = float(input('Qual largura? '))
+are = (lar * alt)
+tint = (are / 2)
+print(f'A área vai dar {are:.1f} m² e será necessário {tint:.1f} litros de tinta.')
